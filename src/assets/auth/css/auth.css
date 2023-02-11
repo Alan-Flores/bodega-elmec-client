@@ -1,0 +1,116 @@
+.body-login {
+    background: rgb(67, 66, 80);
+    background: linear-gradient(135deg, rgba(67, 66, 80, 1) 12%, rgba(152, 148, 149, 1) 31%, rgba(150, 145, 147, 1) 38%, rgba(130, 113, 123, 1) 52%, rgba(139, 138, 144, 1) 79%, rgba(87, 76, 93, 0.9612438725490196) 93%);
+    height: 100vh;
+    padding-top: 10rem;
+}
+
+:root {
+    --sizeCS: 8em;
+}
+
+.form-login {
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 3px !important;
+    padding: 1rem;
+    opacity: .75;
+}
+
+.input-login {
+    height: 3rem;
+}
+
+.icon-login {
+    height: 30px;
+}
+
+.checkbox-select {
+    margin-left: 10px;
+    height: 17px;
+    width: 17px;
+}
+
+.text-checkbox {
+    margin-left: 3px;
+    color: white;
+}
+
+.btn-link {
+    color: white !important;
+    text-decoration: none !important;
+    float: right;
+    margin-top: 16px;
+}
+
+.btn-link:active {
+    color: black !important;
+}
+
+.container {
+    width: calc(var(--sizeCS) * 3.5) !important;
+}
+
+.img-login {
+    border-style: solid;
+    border-color: white;
+    width: var(--sizeCS);
+    height: var(--sizeCS);
+    border-radius: 50%;
+    text-align: center;
+    margin-top: calc(-1 * var(--sizeCS) / 2);
+    float: left;
+    margin-left: calc(var(--sizeCS) * 1.1);
+    margin-bottom: 30px;
+    background-color: white;
+    display: table;
+}
+
+.logo-login {
+    height: var(--sizeCS);
+    padding: calc(var(--sizeCS) * 0.2);
+    will-change: filter;
+    position: absolute;
+    z-index: 1;
+    margin-left: -64px;
+    margin-top: -2px;
+}
+
+.circle-login {
+    height: var(--sizeCS);
+    will-change: filter;
+    position: absolute;
+    z-index: 1;
+    margin-left: -64px;
+    animation: logo-spin infinite 2s linear;   
+    margin-top: -2px;
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.btn-outline-dark {
+    border-color: white !important;
+    color: white !important;
+    height: 3rem;
+    border-width: 2px !important;
+    font-size: 1.2rem !important;
+}
+
+.btn-outline-dark:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.btn-outline-dark:active {
+    background-color: white !important;
+    color: black !important;
+}
