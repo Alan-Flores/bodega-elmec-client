@@ -6,6 +6,8 @@ import circuloCS from '../img/circuloCS.svg'
 
 import '../css/auth.css'
 
+import { Footer } from '../../components'
+
 export const LoginPage = () => {
   return (
     <>
@@ -35,6 +37,9 @@ export const LoginPage = () => {
             </div>
           </div>
         </div>
+
+        <Footer />
+        
       </div>
     </>
   )
