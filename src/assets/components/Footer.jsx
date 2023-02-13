@@ -1,7 +1,4 @@
 
-import cianCS from './img/cianCS.svg'
-import orangeCS from './img/orangeCS.svg'
-
 import './css/footer.css'
 
 export const Footer = () => {

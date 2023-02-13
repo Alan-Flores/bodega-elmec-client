@@ -3,6 +3,7 @@
     width: 100%;
     position: absolute;
     display: flex;
+    opacity: .3;
 }
 
 .cian {
@@ -12,7 +13,7 @@
     width: 100%;
     background-color: #0891c1;
     opacity: 1;
-    animation: wave 4s ease-in-out infinite;
+    animation: wave 6s ease-in-out infinite;
 }
 
 .orange {
@@ -55,4 +56,16 @@
     position: absolute;
     right: 20px;
     bottom: 8px;
+}
+
+@media screen and (max-width: 450px) {
+    .cian {
+        display: none;
+    }
+    .orange {
+        display: none;
+    }
+    .text-footer {
+        display: none;
+    }
 }

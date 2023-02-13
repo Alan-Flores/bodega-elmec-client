@@ -52,6 +52,18 @@
     width: calc(var(--sizeCS) * 3.5) !important;
 }
 
+@media screen and (max-width: 450px) {
+    .container {
+        width: 100% !important;
+    } 
+    .img-login {
+        margin-left: 32% !important;
+    }     
+    .form-login {
+        margin-top: -60px !important;
+    } 
+}
+
 .img-login {
     border-style: solid;
     border-color: white;
@@ -64,7 +76,6 @@
     margin-left: calc(var(--sizeCS) * 1.1);
     margin-bottom: 30px;
     background-color: white;
-    display: table;
 }
 
 .logo-login {
